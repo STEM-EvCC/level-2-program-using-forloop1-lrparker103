@@ -20,14 +20,10 @@ for true in mission_success:
     if true ==True:
         only_true_success.append(true)
 
-print(only_true_success) 
 true_amount =(len(only_true_success))
-print (true_amount)
 
 total_amount= (len(mission_success))
-print (total_amount)
 
 success_rate_decimal = true_amount / total_amount
 success_rate_percent = f"{success_rate_decimal *100:.2f}%"
-print(success_rate_percent)
 
