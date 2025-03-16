@@ -3,5 +3,5 @@
 Larry parker STEM 103 
 Main: 
 Save 1 had issues with the printing of the firstline variable, had to use f"
-Save 2 Had to google how to convert decimals to percents, f" is very useful.
+Save 2 Had to google how to convert decimals to percents, f" is very useful also learned about .2f.
 Save 3 got rid of print checks to reduce clutter.
