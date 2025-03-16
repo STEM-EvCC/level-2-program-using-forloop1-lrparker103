@@ -6,12 +6,10 @@ mission_amount= (len(mission_names))
 
 first_line = f"Total number of missions: {mission_amount}"
 
-
 successfull_true = 0
 for success in mission_success:
     if success ==True:
         successfull_true += 1
-
 
 second_line = f"Number of successful missions: {successfull_true}"
 
@@ -27,3 +25,12 @@ total_amount= (len(mission_success))
 success_rate_decimal = true_amount / total_amount
 success_rate_percent = f"{success_rate_decimal *100:.2f}%"
 
+third_line = f"Success rate: {success_rate_percent}"
+
+print(first_line)
+print(second_line)
+print(third_line)
+print("Missions launched before the year 2000:")
+for num in mission_names:
+    if num != "Curiosity Rover":
+        print("-", num)

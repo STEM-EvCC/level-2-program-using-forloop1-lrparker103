@@ -3,5 +3,6 @@
 Larry parker STEM 103 
 Main: 
 Save 1 had issues with the printing of the firstline variable, had to use f"
-Save 2 Had to google how to convert decimals to percents, f" is very useful also learned about .2f.
+Save 2 Had to google how to convert decimals to percents, f" is very useful also learned about .2f. (just saw the code in the "mycode not working section)
 Save 3 got rid of print checks to reduce clutter.
+Save 4 I tried to combine both mission_name and mission_ years into 1 list then use <2000 to sort but ran into int and tuple error, it may also require even more code to change the format. Going to just use for and if. 
